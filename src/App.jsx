@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Navbar from './components/NavBar';
+import Header from './components/Header';
 
 import './App.css'
 
@@ -10,6 +11,7 @@ function App() {
     <>
       <div>
      <Navbar />
+     <Header />
       </div>
       <h1>Vite + React</h1>
       <div className="card">
