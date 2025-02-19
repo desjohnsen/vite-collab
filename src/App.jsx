@@ -1,17 +1,19 @@
 import { useState } from 'react';
 import Navbar from './components/NavBar';
 import Header from './components/Header';
+import Button from './components/Button';
 
-import './App.css'
+import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
       <div>
-     <Navbar />
-     <Header />
+        <Navbar />
+        <Header />
+        <Button />
       </div>
       <h1>Vite + React</h1>
       <div className="card">
@@ -26,7 +28,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
