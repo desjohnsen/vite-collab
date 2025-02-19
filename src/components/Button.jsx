@@ -1,4 +1,3 @@
-
 const Button = () => {
     const defaultStyle = {
       padding: "10px 20px",
@@ -8,17 +7,14 @@ const Button = () => {
       backgroundColor: "#007bff",
       border: "none",
       borderRadius: "5px",
-    
       transition: "background-color 0.3s ease"
     };
-  
+
     return (
-      <button>
-   
-       
+      <button style={defaultStyle}>
+        Click me
       </button>
     );
-  };
-  
-  export default Button;
-  
+};
+
+export default Button;
